@@ -1,0 +1,384 @@
+PRESS RETURN TO CONTINUE
+TABLE_NAME                                                                 
+------------------------------                                             
+REGIONS                                                                    
+LOCATIONS                                                                  
+DEPARTMENTS                                                                
+JOBS                                                                       
+EMPLOYEES                                                                  
+JOB_HISTORY                                                                
+JOB_GRADES                                                                 
+COUNTRIES                                                                  
+
+8 rows selected.
+
+PRESS RETURN TO CONTINUE
+OWNER                                                                      
+------------------------------                                             
+JMENDOZA                                                                   
+DVU                                                                        
+TCRUZADA                                                                   
+MDSYS                                                                      
+CTXSYS                                                                     
+HR                                                                         
+OLAPSYS                                                                    
+SYSTEM                                                                     
+APEX_030200                                                                
+SCOTT                                                                      
+EXFSYS                                                                     
+XDB                                                                        
+SYS                                                                        
+
+13 rows selected.
+
+ Name                                   Null?    Type
+ -------------------------------------- -------- --------------------------
+ JOB_ID                                 NOT NULL VARCHAR2(10)
+ JOB_TITLE                              NOT NULL VARCHAR2(35)
+ MIN_SALARY                                      NUMBER(6)
+ MAX_SALARY                                      NUMBER(6)
+
+PRESS RETURN TO CONTINUE
+JOBS                                                                       
+----------                                                                 
+AC_ACCOUNT                                                                 
+AC_MGR                                                                     
+AD_ASST                                                                    
+AD_PRES                                                                    
+AD_VP                                                                      
+FI_ACCOUNT                                                                 
+FI_MGR                                                                     
+HR_REP                                                                     
+IT_PROG                                                                    
+MK_MAN                                                                     
+MK_REP                                                                     
+PR_REP                                                                     
+PU_CLERK                                                                   
+PU_MAN                                                                     
+SA_MAN                                                                     
+SA_REP                                                                     
+SH_CLERK                                                                   
+ST_CLERK                                                                   
+ST_MAN                                                                     
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+JOBS       TITLE                                                           
+---------- -----------------------------------                             
+AD_PRES    President                                                       
+AD_VP      Administration Vice President                                   
+AD_ASST    Administration Assistant                                        
+FI_MGR     Finance Manager                                                 
+FI_ACCOUNT Accountant                                                      
+AC_MGR     Accounting Manager                                              
+AC_ACCOUNT Public Accountant                                               
+SA_MAN     Sales Manager                                                   
+SA_REP     Sales Representative                                            
+PU_MAN     Purchasing Manager                                              
+PU_CLERK   Purchasing Clerk                                                
+ST_MAN     Stock Manager                                                   
+ST_CLERK   Stock Clerk                                                     
+SH_CLERK   Shipping Clerk                                                  
+IT_PROG    Programmer                                                      
+MK_MAN     Marketing Manager                                               
+MK_REP     Marketing Representative                                        
+HR_REP     Human Resources Representative                                  
+PR_REP     Public Relations Representative                                 
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+Job Title                               SALARY 120% Minimum Salary         
+----------------------------------- ---------- -------------------         
+President                                20080               24096         
+Administration Vice President            15000               18000         
+Administration Assistant                  3000                3600         
+Finance Manager                           8200                9840         
+Accountant                                4200                5040         
+Accounting Manager                        8200                9840         
+Public Accountant                         4200                5040         
+Sales Manager                            10000               12000         
+Sales Representative                      6000                7200         
+Purchasing Manager                        8000                9600         
+Purchasing Clerk                          2500                3000         
+Stock Manager                             5500                6600         
+Stock Clerk                               2008              2409.6         
+Shipping Clerk                            2500                3000         
+Programmer                                4000                4800         
+Marketing Manager                         9000               10800         
+Marketing Representative                  4000                4800         
+Human Resources Representative            4000                4800         
+Public Relations Representative           4500                5400         
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+Job Title                           Avg. Salary                            
+----------------------------------- -----------                            
+President                                 30040                            
+Administration Vice President             22500                            
+Administration Assistant                   4500                            
+Finance Manager                           12100                            
+Accountant                                 6600                            
+Accounting Manager                        12100                            
+Public Accountant                          6600                            
+Sales Manager                             15040                            
+Sales Representative                       9004                            
+Purchasing Manager                        11500                            
+Purchasing Clerk                           4000                            
+Stock Manager                              7000                            
+Stock Clerk                                3504                            
+Shipping Clerk                             4000                            
+Programmer                                 7000                            
+Marketing Manager                         12000                            
+Marketing Representative                   6500                            
+Human Resources Representative             6500                            
+Public Relations Representative            7500                            
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+        ID Last Name, First Name                                           
+---------- -----------------------------------------------                 
+       100 King, Steven                                                    
+       101 Kochhar, Neena                                                  
+       102 De Haan, Lex                                                    
+       103 Hunold, Alexander                                               
+       104 Ernst, Bruce                                                    
+       105 Austin, David                                                   
+       106 Pataballa, Valli                                                
+       107 Lorentz, Diana                                                  
+       108 Greenberg, Nancy                                                
+       109 Faviet, Daniel                                                  
+       110 Chen, John                                                      
+       111 Sciarra, Ismael                                                 
+       112 Urman, Jose Manuel                                              
+       113 Popp, Luis                                                      
+       114 Raphaely, Den                                                   
+       115 Khoo, Alexander                                                 
+       116 Baida, Shelli                                                   
+       117 Tobias, Sigal                                                   
+       118 Himuro, Guy                                                     
+       119 Colmenares, Karen                                               
+       120 Weiss, Matthew                                                  
+       121 Fripp, Adam                                                     
+       122 Kaufling, Payam                                                 
+       123 Vollman, Shanta                                                 
+       124 Mourgos, Kevin                                                  
+       125 Nayer, Julia                                                    
+       126 Mikkilineni, Irene                                              
+PRESS RETURN TO CONTINUE
+        ID Last Name, First Name                                           
+---------- -----------------------------------------------                 
+       127 Landry, James                                                   
+       128 Markle, Steven                                                  
+       129 Bissot, Laura                                                   
+       130 Atkinson, Mozhe                                                 
+       131 Marlow, James                                                   
+       132 Olson, TJ                                                       
+       133 Mallin, Jason                                                   
+       134 Rogers, Michael                                                 
+       135 Gee, Ki                                                         
+       136 Philtanker, Hazel                                               
+       137 Ladwig, Renske                                                  
+       138 Stiles, Stephen                                                 
+       139 Seo, John                                                       
+       140 Patel, Joshua                                                   
+       141 Rajs, Trenna                                                    
+       142 Davies, Curtis                                                  
+       143 Matos, Randall                                                  
+       144 Vargas, Peter                                                   
+       145 Russell, John                                                   
+       146 Partners, Karen                                                 
+       147 Errazuriz, Alberto                                              
+       148 Cambrault, Gerald                                               
+       149 Zlotkey, Eleni                                                  
+       150 Tucker, Peter                                                   
+       151 Bernstein, David                                                
+       152 Hall, Peter                                                     
+       153 Olsen, Christopher                                              
+PRESS RETURN TO CONTINUE
+        ID Last Name, First Name                                           
+---------- -----------------------------------------------                 
+       154 Cambrault, Nanette                                              
+       155 Tuvault, Oliver                                                 
+       156 King, Janette                                                   
+       157 Sully, Patrick                                                  
+       158 McEwen, Allan                                                   
+       159 Smith, Lindsey                                                  
+       160 Doran, Louise                                                   
+       161 Sewall, Sarath                                                  
+       162 Vishney, Clara                                                  
+       163 Greene, Danielle                                                
+       164 Marvins, Mattea                                                 
+       165 Lee, David                                                      
+       166 Ande, Sundar                                                    
+       167 Banda, Amit                                                     
+       168 Ozer, Lisa                                                      
+       169 Bloom, Harrison                                                 
+       170 Fox, Tayler                                                     
+       171 Smith, William                                                  
+       172 Bates, Elizabeth                                                
+       173 Kumar, Sundita                                                  
+       174 Abel, Ellen                                                     
+       175 Hutton, Alyssa                                                  
+       176 Taylor, Jonathon                                                
+       177 Livingston, Jack                                                
+       178 Grant, Kimberely                                                
+       179 Johnson, Charles                                                
+       180 Taylor, Winston                                                 
+PRESS RETURN TO CONTINUE
+        ID Last Name, First Name                                           
+---------- -----------------------------------------------                 
+       181 Fleaur, Jean                                                    
+       182 Sullivan, Martha                                                
+       183 Geoni, Girard                                                   
+       184 Sarchand, Nandita                                               
+       185 Bull, Alexis                                                    
+       186 Dellinger, Julia                                                
+       187 Cabrio, Anthony                                                 
+       188 Chung, Kelly                                                    
+       189 Dilly, Jennifer                                                 
+       190 Gates, Timothy                                                  
+       191 Perkins, Randall                                                
+       192 Bell, Sarah                                                     
+       193 Everett, Britney                                                
+       194 McCain, Samuel                                                  
+       195 Jones, Vance                                                    
+       196 Walsh, Alana                                                    
+       197 Feeney, Kevin                                                   
+       198 OConnell, Donald                                                
+       199 Grant, Douglas                                                  
+       200 Whalen, Jennifer                                                
+       201 Hartstein, Michael                                              
+       202 Fay, Pat                                                        
+       203 Mavris, Susan                                                   
+       204 Baer, Hermann                                                   
+       205 Higgins, Shelley                                                
+       206 Gietz, William                                                  
+
+107 rows selected.
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                 COMMISSION_PCT                                   
+------------------------- --------------                                   
+OConnell                                                                   
+Grant                                                                      
+Whalen                                                                     
+Hartstein                                                                  
+Fay                                                                        
+Mavris                                                                     
+Baer                                                                       
+Higgins                                                                    
+Gietz                                                                      
+King                                                                       
+Kochhar                                                                    
+De Haan                                                                    
+Hunold                                                                     
+Ernst                                                                      
+Austin                                                                     
+Pataballa                                                                  
+Lorentz                                                                    
+Greenberg                                                                  
+Faviet                                                                     
+Chen                                                                       
+Sciarra                                                                    
+Urman                                                                      
+Popp                                                                       
+Raphaely                                                                   
+Khoo                                                                       
+Baida                                                                      
+Tobias                                                                     
+PRESS RETURN TO CONTINUE
+LAST_NAME                 COMMISSION_PCT                                   
+------------------------- --------------                                   
+Himuro                                                                     
+Colmenares                                                                 
+Weiss                                                                      
+Fripp                                                                      
+Kaufling                                                                   
+Vollman                                                                    
+Mourgos                                                                    
+Nayer                                                                      
+Mikkilineni                                                                
+Landry                                                                     
+Markle                                                                     
+Bissot                                                                     
+Atkinson                                                                   
+Marlow                                                                     
+Olson                                                                      
+Mallin                                                                     
+Rogers                                                                     
+Gee                                                                        
+Philtanker                                                                 
+Ladwig                                                                     
+Stiles                                                                     
+Seo                                                                        
+Patel                                                                      
+Rajs                                                                       
+Davies                                                                     
+Matos                                                                      
+Vargas                                                                     
+PRESS RETURN TO CONTINUE
+LAST_NAME                 COMMISSION_PCT                                   
+------------------------- --------------                                   
+Russell                               .4                                   
+Partners                              .3                                   
+Errazuriz                             .3                                   
+Cambrault                             .3                                   
+Zlotkey                               .2                                   
+Tucker                                .3                                   
+Bernstein                            .25                                   
+Hall                                 .25                                   
+Olsen                                 .2                                   
+Cambrault                             .2                                   
+Tuvault                              .15                                   
+King                                 .35                                   
+Sully                                .35                                   
+McEwen                               .35                                   
+Smith                                 .3                                   
+Doran                                 .3                                   
+Sewall                               .25                                   
+Vishney                              .25                                   
+Greene                               .15                                   
+Marvins                               .1                                   
+Lee                                   .1                                   
+Ande                                  .1                                   
+Banda                                 .1                                   
+Ozer                                 .25                                   
+Bloom                                 .2                                   
+Fox                                   .2                                   
+Smith                                .15                                   
+PRESS RETURN TO CONTINUE
+LAST_NAME                 COMMISSION_PCT                                   
+------------------------- --------------                                   
+Bates                                .15                                   
+Kumar                                 .1                                   
+Abel                                  .3                                   
+Hutton                               .25                                   
+Taylor                                .2                                   
+Livingston                            .2                                   
+Grant                                .15                                   
+Johnson                               .1                                   
+Taylor                                                                     
+Fleaur                                                                     
+Sullivan                                                                   
+Geoni                                                                      
+Sarchand                                                                   
+Bull                                                                       
+Dellinger                                                                  
+Cabrio                                                                     
+Chung                                                                      
+Dilly                                                                      
+Gates                                                                      
+Perkins                                                                    
+Bell                                                                       
+Everett                                                                    
+McCain                                                                     
+Jones                                                                      
+Walsh                                                                      
+Feeney                                                                     
+
+107 rows selected.
+

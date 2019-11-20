@@ -1,0 +1,71 @@
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BRANCHID                                  NOT NULL CHAR(9)
+ MGRID                                     NOT NULL CHAR(9)
+ ADDRESS                                   NOT NULL VARCHAR2(25)
+ PHONENUMBER                                        CHAR(10)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STAFFID                                   NOT NULL CHAR(9)
+ BRANCHID                                  NOT NULL CHAR(9)
+ FIRSTNAME                                 NOT NULL VARCHAR2(15)
+ LASTNAME                                  NOT NULL VARCHAR2(15)
+ DATEOFBIRTH                               NOT NULL DATE
+ GENDER                                    NOT NULL CHAR(1)
+ ADDRESS                                            VARCHAR2(25)
+ PHONENUMBER                                        CHAR(10)
+ DATEHIRE                                  NOT NULL DATE
+ SALARY                                    NOT NULL NUMBER(10,2)
+ ISMANAGER                                          CHAR(1)
+ ISADMIN                                            CHAR(1)
+ ISOWNER                                            CHAR(1)
+ ISDRIVER                                           CHAR(1)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STAFFID                                   NOT NULL CHAR(9)
+ TAXIID                                    NOT NULL CHAR(9)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ TAXIID                                    NOT NULL CHAR(9)
+ OWNERNO                                   NOT NULL CHAR(9)
+ ISREGISTERED                              NOT NULL CHAR(1)
+ LICENSEPLATE                              NOT NULL VARCHAR2(15)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ JOBID                                     NOT NULL CHAR(9)
+ CONTRACTID                                         CHAR(9)
+ CLIENTID                                           CHAR(9)
+ BUSCLIENTID                                        CHAR(9)
+ TAXIID                                    NOT NULL CHAR(9)
+ STAFFID                                   NOT NULL CHAR(9)
+ BRANCHID                                  NOT NULL CHAR(9)
+ PICKUPADDRESS                             NOT NULL CHAR(25)
+ DESTINATION                               NOT NULL CHAR(25)
+ MILESDRIVEN                               NOT NULL NUMBER(5,2)
+ FARE                                      NOT NULL NUMBER(5,2)
+ DATEDRIVEN                                NOT NULL DATE
+ FAILREASON                                NOT NULL VARCHAR2(100)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CLIENTID                                  NOT NULL CHAR(9)
+ BRANCHID                                  NOT NULL CHAR(9)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CLIENTID                                  NOT NULL CHAR(9)
+ BRANCHID                                  NOT NULL CHAR(9)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CONTRACTID                                NOT NULL CHAR(9)
+ BRANCHID                                  NOT NULL CHAR(9)
+ BUSCLIENTID                               NOT NULL CHAR(9)
+ FEE                                       NOT NULL NUMBER(5,2)
+ NUMBEROFJOBS                              NOT NULL NUMBER(3)
+ DATESIGNED                                NOT NULL DATE
+

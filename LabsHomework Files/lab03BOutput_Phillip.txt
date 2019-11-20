@@ -1,0 +1,263 @@
+PRESS RETURN TO CONTINUE
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                   
+------------- ----------- -------------------- -------------------------   
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+           10         200 Jennifer             Whalen                      
+17-SEP-03    15.5968261                                                    
+                                                                           
+           20         201 Michael              Hartstein                   
+17-FEB-04     15.177648                                                    
+                                                                           
+           30         114 Den                  Raphaely                    
+07-DEC-02    16.3749083                                                    
+                                                                           
+           30         115 Alexander            Khoo                        
+18-MAY-03    15.9310727                                                    
+                                                                           
+           40         203 Susan                Mavris                      
+07-JUN-02    16.8762782                                                    
+                                                                           
+           50         122 Payam                Kaufling                    
+01-MAY-03     15.977648                                                    
+                                                                           
+           50         137 Renske               Ladwig                      
+14-JUL-03    15.7749083                                                    
+                                                                           
+           50         141 Trenna               Rajs                        
+17-OCT-03    15.5146343                                                    
+                                                                           
+           50         184 Nandita              Sarchand                    
+PRESS RETURN TO CONTINUE
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                   
+------------- ----------- -------------------- -------------------------   
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+27-JAN-04    15.2351823                                                    
+                                                                           
+           50         192 Sarah                Bell                        
+04-FEB-04    15.2132645                                                    
+                                                                           
+           70         204 Hermann              Baer                        
+07-JUN-02    16.8762782                                                    
+                                                                           
+           80         156 Janette              King                        
+30-JAN-04    15.2269631                                                    
+                                                                           
+           80         157 Patrick              Sully                       
+04-MAR-04    15.1338124                                                    
+                                                                           
+           90         100 Steven               King                        
+17-JUN-03    15.8488809                                                    
+                                                                           
+           90         102 Lex                  De Haan                     
+13-JAN-01    18.2735384                                                    
+                                                                           
+          100         108 Nancy                Greenberg                   
+17-AUG-02    16.6817576                                                    
+                                                                           
+          100         109 Daniel               Faviet                      
+16-AUG-02    16.6844973                                                    
+PRESS RETURN TO CONTINUE
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                   
+------------- ----------- -------------------- -------------------------   
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+                                                                           
+          110         205 Shelley              Higgins                     
+07-JUN-02    16.8762782                                                    
+                                                                           
+          110         206 William              Gietz                       
+07-JUN-02    16.8762782                                                    
+                                                                           
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                   
+------------- ----------- -------------------- -------------------------   
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+          100         108 Nancy                Greenberg                   
+17-AUG-02    16.6817579                                                    
+                                                                           
+          100         109 Daniel               Faviet                      
+16-AUG-02    16.6844977                                                    
+                                                                           
+          110         205 Shelley              Higgins                     
+07-JUN-02    16.8762785                                                    
+                                                                           
+          110         206 William              Gietz                       
+07-JUN-02    16.8762785                                                    
+                                                                           
+
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 HIRE_DATE       
+----------- -------------------- ------------------------- ---------       
+YEARS_SERVICE                                                              
+-------------                                                              
+        173 Sundita              Kumar                     21-APR-08       
+   10.9995662                                                              
+                                                                           
+        167 Amit                 Banda                     21-APR-08       
+   10.9995662                                                              
+                                                                           
+        166 Sundar               Ande                      24-MAR-08       
+   11.0762785                                                              
+                                                                           
+        128 Steven               Markle                    08-MAR-08       
+   11.1201142                                                              
+                                                                           
+        165 David                Lee                       23-FEB-08       
+   11.1584703                                                              
+                                                                           
+        136 Hazel                Philtanker                06-FEB-08       
+   11.2050457                                                              
+                                                                           
+        183 Girard               Geoni                     03-FEB-08       
+   11.2132648                                                              
+                                                                           
+        149 Eleni                Zlotkey                   29-JAN-08       
+   11.2269635                                                              
+                                                                           
+        164 Mattea               Marvins                   24-JAN-08       
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 HIRE_DATE       
+----------- -------------------- ------------------------- ---------       
+YEARS_SERVICE                                                              
+-------------                                                              
+   11.2406621                                                              
+                                                                           
+        199 Douglas              Grant                     13-JAN-08       
+   11.2707991                                                              
+                                                                           
+        179 Charles              Johnson                   04-JAN-08       
+   11.2954566                                                              
+                                                                           
+
+11 rows selected.
+
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY      
+----------- -------------------- ------------------------- ----------      
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+        192 Sarah                Bell                            4000      
+04-FEB-04    15.2132649                                                    
+                                                                           
+        109 Daniel               Faviet                          9000      
+16-AUG-02    16.6844977                                                    
+                                                                           
+        206 William              Gietz                           8300      
+07-JUN-02    16.8762786                                                    
+                                                                           
+        122 Payam                Kaufling                        7900      
+01-MAY-03    15.9776484                                                    
+                                                                           
+        115 Alexander            Khoo                            3100      
+18-MAY-03    15.9310731                                                    
+                                                                           
+        137 Renske               Ladwig                          3600      
+14-JUL-03    15.7749087                                                    
+                                                                           
+        203 Susan                Mavris                          6500      
+07-JUN-02    16.8762786                                                    
+                                                                           
+        141 Trenna               Rajs                            3500      
+17-OCT-03    15.5146347                                                    
+                                                                           
+        184 Nandita              Sarchand                        4200      
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY      
+----------- -------------------- ------------------------- ----------      
+HIRE_DATE YEARS_SERVICE                                                    
+--------- -------------                                                    
+27-JAN-04    15.2351827                                                    
+                                                                           
+        157 Patrick              Sully                           9500      
+04-MAR-04    15.1338128                                                    
+                                                                           
+        200 Jennifer             Whalen                          4400      
+17-SEP-03    15.5968265                                                    
+                                                                           
+
+11 rows selected.
+
+PRESS RETURN TO CONTINUE
+# of Employees MIN SALARY MAX SALARY                                       
+-------------- ---------- ----------                                       
+           107       2100      24000                                       
+
+PRESS RETURN TO CONTINUE
+JOB_ID                                                                     
+----------                                                                 
+AC_ACCOUNT                                                                 
+AC_MGR                                                                     
+AD_ASST                                                                    
+AD_PRES                                                                    
+AD_VP                                                                      
+FI_ACCOUNT                                                                 
+FI_MGR                                                                     
+HR_REP                                                                     
+IT_PROG                                                                    
+MK_MAN                                                                     
+MK_REP                                                                     
+PR_REP                                                                     
+PU_CLERK                                                                   
+PU_MAN                                                                     
+SA_MAN                                                                     
+SA_REP                                                                     
+SH_CLERK                                                                   
+ST_CLERK                                                                   
+ST_MAN                                                                     
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+FIRST_NAME           LAST_NAME                                             
+-------------------- -------------------------                             
+Douglas              Grant                                                 
+Danielle             Greene                                                
+
+PRESS RETURN TO CONTINUE
+UPPER(LAST_NAME)          UPPER(FIRST_NAME)    JOB_ID                      
+------------------------- -------------------- ----------                  
+HUNOLD                    ALEXANDER            IT_PROG                     
+ERNST                     BRUCE                IT_PROG                     
+AUSTIN                    DAVID                IT_PROG                     
+PATABALLA                 VALLI                IT_PROG                     
+LORENTZ                   DIANA                IT_PROG                     
+
+PRESS RETURN TO CONTINUE
+    SALARY                                                                 
+----------                                                                 
+     10000                                                                 
+     10500                                                                 
+     11000                                                                 
+     11500                                                                 
+     12000                                                                 
+     12008                                                                 
+     13000                                                                 
+     13500                                                                 
+     14000                                                                 
+     17000                                                                 
+     24000                                                                 
+
+11 rows selected.
+
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID START_DAT END_DATE  JOB_ID     DEPARTMENT_ID YEARS_SERVICE     
+----------- --------- --------- ---------- ------------- -------------     
+        101 21-SEP-97 27-OCT-01 AC_ACCOUNT           110    4.10136986     
+        101 28-OCT-01 15-MAR-05 AC_MGR               110    3.38082192     
+        102 13-JAN-01 24-JUL-06 IT_PROG               60    5.52876712     
+        114 24-MAR-06 31-DEC-07 ST_CLERK              50    1.77260274     
+        122 01-JAN-07 31-DEC-07 ST_CLERK              50    .997260274     
+        176 24-MAR-06 31-DEC-06 SA_REP                80     .77260274     
+        176 01-JAN-07 31-DEC-07 SA_MAN                80    .997260274     
+        200 17-SEP-95 17-JUN-01 AD_ASST               90    5.75342466     
+        200 01-JUL-02 31-DEC-06 AC_ACCOUNT            90    4.50410959     
+        201 17-FEB-04 19-DEC-07 MK_REP                20    3.83835616     
+
+10 rows selected.
+

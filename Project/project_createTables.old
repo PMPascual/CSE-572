@@ -1,0 +1,52 @@
+-- Team Name: Deal Team Six
+-- CSE 572 Spring 2019
+-- Project Option: The FastCabs
+-- Purpose: Creation of SQL Tables
+-- Author: Phillip Pascual - 005869470
+
+CREATE TABLE Staff (
+    staffID VARCHAR(10) NOT NULL,
+    branchID VARCHAR(10) NOT NULL,
+    firstName CHAR(15) NOT NULL,
+    lastName CHAR(15) NOT NULL,
+    dateOfBirth DATE NOT NULL,
+    gender CHAR(1) NOT NULL,
+    address VARCHAR(25),
+    phoneNumber VARCHAR(12),
+    salary NUMBER(10,2) NOT NULL,
+    isManager CHAR(1),
+    isAdmin CHAR(1),
+    isOwner CHAR(1),
+    isDriver CHAR(1),
+    CONSTRAINTS Staff_PK PRIMARY KEY(staffID),
+    CONSTRAINTS Employee_Gender_CK CHECK (gender IN ('F','M')),
+    CONSTRAINTS Manager_CK CHECK (isManager IN ('Y')),
+    CONSTRAINTS Admin_CK CHECK (isAdmin IN ('Y')),
+    CONSTRAINTS Owner_CK CHECK (isOwner IN ('Y')),
+    CONSTRAINTS Driver_CK CHECK (isDriver IN ('Y'))
+);
+
+CREATE TABLE Taxi (
+    taxiID VARCHAR(10) NOT NULL,
+    ownerNo VARCHAR(10) NOT NULL,
+    isRegistered CHAR(1) NOT NULL,
+    licensePlate VARCHAR(15) NOT NULL,
+    CONSTRAINTS Taxi_PK PRIMARY KEY(taxiID),
+    CONSTRAINTS Registered_CK CHECK (isRegistered IN ('Y','N'))
+);
+
+CREATE TABLE Business (
+    clientID VARCHAR(10) NOT NULL,
+    branchID VARCHAR(10) NOT NULL,
+    CONSTRAINTS Client_PK PRIMARY KEY(clientID)
+);
+
+CREATE TABLE Contract (
+    contractID VARCHAR(10) NOT NULL,
+    branchID VARCHAR(10) NOT NULL,
+    busClientID VARCHAR(10) NOT NULL,
+    fEE NUMBER(5,2) NOT NULL,
+    numberOfJobs NUMBER(3) NOT NULL,
+    dateSigned DATE NOT NULL,
+    CONSTRAINTS Contract_PK PRIMARY KEY(contractID)
+);

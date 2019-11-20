@@ -1,0 +1,77 @@
+
+View created.
+
+PRESS RETURN TO CONTINUE
+ROOMNO  HNO     ROOMTYPE    ROOMPRICE                                      
+------- ------- ---------- ----------                                      
+101     H001    Single             11                                      
+102     H001    Double             12                                      
+103     H001    Suite              13                                      
+
+
+View created.
+
+PRESS RETURN TO CONTINUE
+GNO     GUESTNAME            DATEFROM  DATETO    RNO                       
+------- -------------------- --------- --------- -------                   
+G01     Don Cheadle          01-MAY-17 03-MAY-17 101                       
+G03     Edward Scissor       05-FEB-19 06-FEB-19 103                       
+
+
+View created.
+
+PRESS RETURN TO CONTINUE
+GUESTNO GUESTNAME            GUESTADDRESS                                  
+------- -------------------- --------------------                          
+G01     Don Cheadle          123 Avenger Ave                               
+G02     Ron King             456 Boxing Ave                                
+G03     Edward Scissor       789 Buron Ave                                 
+
+
+View created.
+
+PRESS RETURN TO CONTINUE
+HNO     GNO     GUESTNAME            DATEFROM  DATETO    RNO     ROOMTYPE  
+------- ------- -------------------- --------- --------- ------- ----------
+H001    G01     Don Cheadle          01-MAY-17 03-MAY-17 101     Single    
+H001    G03     Edward Scissor       05-FEB-19 06-FEB-19 103     Suite     
+H002    G03     Edward Scissor       01-JAN-19 04-JAN-19 201     Single    
+H002    G01     Don Cheadle          04-JUN-17 07-JUN-17 202     Double    
+H003    G02     Ron King             07-JUL-18 17-JUL-18 301     Single    
+H003    G02     Ron King             09-SEP-18 11-SEP-18 303     Suite     
+
+6 rows selected.
+
+
+View created.
+
+PRESS RETURN TO CONTINUE
+ROOMNO  HNO     HOTELNAME            HOTELCITY  ROOMTYPE    ROOMPRICE      
+------- ------- -------------------- ---------- ---------- ----------      
+101     H001    Hotel Rwanda         Kigali     Single             11      
+102     H001    Hotel Rwanda         Kigali     Double             12      
+103     H001    Hotel Rwanda         Kigali     Suite              13      
+201     H002    Casino Royale        Monaco     Single             21      
+202     H002    Casino Royale        Monaco     Double             22      
+203     H002    Casino Royale        Monaco     Suite              23      
+301     H003    Titanic              Newland    Single             31      
+302     H003    Titanic              Newland    Double             32      
+303     H003    Titanic              Newland    Suite              33      
+
+9 rows selected.
+
+
+View dropped.
+
+
+View dropped.
+
+
+View dropped.
+
+
+View dropped.
+
+
+View dropped.
+

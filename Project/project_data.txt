@@ -1,0 +1,120 @@
+PRESS RETURN TO CONTINUE
+BRANCHID  MGRID     ADDRESS                   PHONENUMBE                     
+--------- --------- ------------------------- ----------                     
+B0011AB75 S00554898 537 N. Loma Linda Rd      3305548798                     
+B0011AB76 S15488375 123 Fake Street           3112554784                     
+
+PRESS RETURN TO CONTINUE
+STAFFID   BRANCHID  FIRSTNAME       LASTNAME        DATEOFBIR G              
+--------- --------- --------------- --------------- --------- -              
+ADDRESS                   PHONENUMBE DATEHIRE      SALARY I I I I            
+------------------------- ---------- --------- ---------- - - - -            
+S00554898 B0011AB75 Allen           Wraith          27-OCT-93 M              
+58 Twitch Rd              9094877522 21-JAN-20      75000 Y                  
+                                                                             
+S15488375 B0011AB76 Juan            Johnson         04-JAN-94 M              
+61 Reddit Lane            9092459870 23-JAN-20      84000 Y                  
+                                                                             
+S00554897 B0011AB75 John            Smith           28-DEC-95 M              
+123 Fake Street           9095487755 20-JAN-20      65000       Y            
+                                                                             
+S00554899 B0011AB75 Jonna           Hill            01-MAR-90 F              
+765 Linda Drive           9092423165 20-JAN-20      62300   Y                
+                                                                             
+S00554900 B0011AB75 Sneaky          Castro          23-JAN-91 F              
+232 Petty Rd              9094248795 21-JAN-20      97000     Y              
+                                                                             
+S15488376 B0011AB76 Mireya          Hierra          11-FEB-74 F              
+762 Wood Ave              9091245706 22-JAN-20      97110   Y                
+                                                                             
+S15488377 B0011AB76 Bear            Kazooie         06-JUN-80 M              
+17 Gengar Ave             9098753574 24-JAN-20      56000     Y              
+                                                                             
+S15488378 B0011AB76 Shina           Lao             11-NOV-92 F              
+875 Cloud Drive           9098739734 22-JAN-20      67000       Y            
+                                                                             
+
+8 rows selected.
+
+select * from ppas.assignments
+                   *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+PRESS RETURN TO CONTINUE
+TAXIID    OWNERNO   I LICENSEPLATE                                           
+--------- --------- - ---------------                                        
+T00000001 S00554900 Y CA9990                                                 
+T00000004 S15488378 Y CA9993                                                 
+
+PRESS RETURN TO CONTINUE
+JOBID     CONTRACTI CLIENTID  BUSCLIENT TAXIID    STAFFID   BRANCHID         
+--------- --------- --------- --------- --------- --------- ---------        
+PICKUPADDRESS             DESTINATION               MILESDRIVEN       FARE   
+------------------------- ------------------------- ----------- ----------   
+DATEDRIVE                                                                    
+---------                                                                    
+FAILREASON                                                                   
+-----------------------------------------------------------------------------
+J00000003           C00000007           T00000001 S00554897 B0011AB75        
+123 Fake St               456 Faker St.                   45.45      50.23   
+26-FEB-20                                                                    
+Completed                                                                    
+                                                                             
+J00000004           C00000007           T00000001 S00554897 B0011AB75        
+112 Verizon Wy            23 ATT Ave                      23.45      25.23   
+27-MAR-20                                                                    
+Completed                                                                    
+                                                                             
+J00000008           C00000009           T00000004 S15488378 B0011AB76        
+98 Chernobyl St           45 Meltdown Ave                 33.32      39.32   
+16-MAR-20                                                                    
+Completed                                                                    
+                                                                             
+J00000009           C00000009           T00000004 S15488378 B0011AB76        
+90 Abc Ave                87 Xyz St                       50.32      67.98   
+09-JUN-20                                                                    
+Completed                                                                    
+                                                                             
+J00000045 X05588755           C00117845 T00000001 S00554897 B0011AB75        
+879 Lourve Street         978 LawLaw Rd                   60.95      67.87   
+16-FEB-20                                                                    
+Completed                                                                    
+                                                                             
+J00007845 X05588755           C00117845 T00000001 S00554897 B0011AB75        
+763 Inter Lane            87 Challenjour Ave              54.67      87.54   
+29-FEB-20                                                                    
+Completed                                                                    
+                                                                             
+J10057522 X05786842           C00117895 T00000004 S15488378 B0011AB76        
+879 Loner Ave             645 Salavador Street            78.41      46.78   
+08-APR-20                                                                    
+Completed                                                                    
+                                                                             
+J00080049 X05786842           C00117895 T00000004 S15488378 B0011AB76        
+245 Lewd Street           343 Industries Rd               21.57      64.78   
+11-JUN-20                                                                    
+Completed                                                                    
+                                                                             
+
+8 rows selected.
+
+PRESS RETURN TO CONTINUE
+CLIENTID  BRANCHID                                                           
+--------- ---------                                                          
+C00117845 B0011AB75                                                          
+C00117895 B0011AB76                                                          
+
+PRESS RETURN TO CONTINUE
+CLIENTID  BRANCHID                                                           
+--------- ---------                                                          
+C00000007 B0011AB75                                                          
+C00000009 B0011AB76                                                          
+
+PRESS RETURN TO CONTINUE
+CONTRACTI BRANCHID  BUSCLIENT        FEE NUMBEROFJOBS DATESIGNE              
+--------- --------- --------- ---------- ------------ ---------              
+X05588755 B0011AB75 C00117845     505.39          100 27-JAN-20              
+X05786842 B0011AB76 C00117895     250.87           50 26-JAN-20              
+

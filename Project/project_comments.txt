@@ -1,0 +1,113 @@
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COMMENTS                                                                                                       
+-------------------- ----------------------------------------                                                                       
+BUSINESS             All data involving the Business Client                                                                         
+CONTRACT             Holds all the values of the contracts th                                                                       
+                     at the business does                                                                                           
+                                                                                                                                    
+JOB                  Holds all the information that is associ                                                                       
+                     ated with the Job                                                                                              
+                                                                                                                                    
+OFFICE               Holds all the information important in t                                                                       
+                     he office                                                                                                      
+                                                                                                                                    
+PRIVATE              Holds all the information on the private                                                                       
+                      client                                                                                                        
+                                                                                                                                    
+STAFF                All Staff in the database                                                                                      
+TAXI                 All data involving the taxi                                                                                    
+
+7 rows selected.
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+OFFICE               BRANCHID             Unqiue branchID that is associated with                                                   
+                                          the office                                                                                
+                                                                                                                                    
+OFFICE               MGRID                If the office has a manager, this holds                                                   
+                                          their mgrID                                                                               
+                                                                                                                                    
+OFFICE               ADDRESS              Address of the office                                                                     
+OFFICE               PHONENUMBER          Phone number of that office                                                               
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+STAFF                STAFFID              Unique staff ID for all                                                                   
+STAFF                BRANCHID             branch ID for the company                                                                 
+STAFF                FIRSTNAME            First Name of Staff                                                                       
+STAFF                LASTNAME             Last Name of Staff                                                                        
+STAFF                DATEOFBIRTH          Date of Birth of Staff - day/month/year                                                   
+STAFF                GENDER               Gender of staff - format M or F                                                           
+STAFF                ADDRESS              Address of the staff                                                                      
+STAFF                PHONENUMBER          Phone Number of the staff                                                                 
+STAFF                DATEHIRE                                                                                                       
+STAFF                SALARY               Salary that the staff member would get                                                    
+STAFF                ISMANAGER                                                                                                      
+STAFF                ISADMIN                                                                                                        
+STAFF                ISOWNER                                                                                                        
+STAFF                ISDRIVER                                                                                                       
+
+14 rows selected.
+
+
+no rows selected
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+TAXI                 TAXIID               Unique ID for each taxi                                                                   
+TAXI                 OWNERNO              The owner of the taxis                                                                    
+TAXI                 ISREGISTERED         Value of whether the taxi is registered                                                   
+                                          or not                                                                                    
+                                                                                                                                    
+TAXI                 LICENSEPLATE         License plate for a specific taxi                                                         
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+JOB                  JOBID                Job ID                                                                                    
+JOB                  CONTRACTID           Contract ID                                                                               
+JOB                  CLIENTID             Client ID                                                                                 
+JOB                  BUSCLIENTID          Business Client ID                                                                        
+JOB                  TAXIID               Taxi ID                                                                                   
+JOB                  STAFFID              ID of driver                                                                              
+JOB                  BRANCHID             Branch ID                                                                                 
+JOB                  PICKUPADDRESS        Address passenger picked up at                                                            
+JOB                  DESTINATION          Destination address                                                                       
+JOB                  MILESDRIVEN          Miles from pickup to destination                                                          
+JOB                  FARE                 Fare for completing ride                                                                  
+JOB                  DATEDRIVEN           Date drive completed                                                                      
+JOB                  FAILREASON           Comments/reason for drive failure                                                         
+
+13 rows selected.
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+BUSINESS             CLIENTID             Unique ID for each client                                                                 
+BUSINESS             BRANCHID             The branch ID that the Business associat                                                  
+                                          es themselves with                                                                        
+                                                                                                                                    
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+PRIVATE              CLIENTID             The client ID of the private client                                                       
+PRIVATE              BRANCHID             The branch ID that the client made the d                                                  
+                                          eal with                                                                                  
+                                                                                                                                    
+
+PRESS RETURN TO CONTINUE
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+CONTRACT             CONTRACTID           Unique ID of the contract                                                                 
+CONTRACT             BRANCHID             the branch ID where the contract is done                                                  
+CONTRACT             BUSCLIENTID          the business client ID                                                                    
+CONTRACT             FEE                  The fee agreed on in the contract                                                         
+CONTRACT             NUMBEROFJOBS         The amount of jobs done in the contract                                                   
+CONTRACT             DATESIGNED           Date in which the contract was signed on                                                  
+
+6 rows selected.
+

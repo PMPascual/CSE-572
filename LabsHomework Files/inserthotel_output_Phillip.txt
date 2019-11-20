@@ -1,0 +1,48 @@
+SQL> 
+SQL> SELECT * FROM Hotel;
+PRESS RETURN TO CONTINUE
+HOTELNO HOTELNAME            HOTELCITY                                     
+------- -------------------- ----------                                    
+H001    Hotel Rwanda         Kigali                                        
+H002    Casino Royale        Monaco                                        
+H003    Titanic              Newland                                       
+
+SQL> SELECT * FROM Room;
+PRESS RETURN TO CONTINUE
+ROOMNO  HNO     ROOMTYPE    ROOMPRICE                                      
+------- ------- ---------- ----------                                      
+101     H001    Single             11                                      
+102     H001    Double             12                                      
+103     H001    Suite              13                                      
+201     H002    Single             21                                      
+202     H002    Double             22                                      
+203     H002    Suite              23                                      
+301     H003    Single             31                                      
+302     H003    Double             32                                      
+303     H003    Suite              33                                      
+
+9 rows selected.
+
+SQL> SELECT * FROM Guest;
+PRESS RETURN TO CONTINUE
+GUESTNO GUESTNAME            GUESTADDRESS                                  
+------- -------------------- --------------------                          
+G01     Don Cheadle          123 Avenger Ave                               
+G02     Ron King             456 Boxing Ave                                
+G03     Edward Scissor       789 Buron Ave                                 
+
+SQL> SELECT * FROM Booking;
+PRESS RETURN TO CONTINUE
+HNO     GNO     DATEFROM  DATETO    RNO                                    
+------- ------- --------- --------- -------                                
+H001    G01     01-MAY-17 03-MAY-17 101                                    
+H002    G01     04-JUN-17 07-JUN-17 202                                    
+H003    G02     07-JUL-18 17-JUL-18 301                                    
+H003    G02     09-SEP-18 11-SEP-18 303                                    
+H002    G03     01-JAN-19 04-JAN-19 201                                    
+H001    G03     05-FEB-19 06-FEB-19 103                                    
+
+6 rows selected.
+
+SQL> 
+SQL> SPOOL OFF

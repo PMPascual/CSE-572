@@ -1,0 +1,57 @@
+PRESS RETURN TO CONTINUE
+BRANCHID  PHONENUMBE LASTNAME        FIRSTNAME                               
+--------- ---------- --------------- ---------------                         
+B0011AB75 3305548798 Wraith          Allen                                   
+B0011AB76 3112554784 Johnson         Juan                                    
+
+PRESS RETURN TO CONTINUE
+LASTNAME        FIRSTNAME                                                    
+--------------- ---------------                                              
+Lao             Shina                                                        
+
+PRESS RETURN TO CONTINUE
+# of Staff                                                                   
+----------                                                                   
+         4                                                                   
+         4                                                                   
+
+PRESS RETURN TO CONTINUE
+TAXIID    OWNERNO   R LICENSEPLATE    LASTNAME        FIRSTNAME              
+--------- --------- - --------------- --------------- ---------------        
+T00000001 S00554900 Y CA9990          Castro          Sneaky                 
+T00000004 S15488378 Y CA9993          Lao             Shina                  
+
+PRESS RETURN TO CONTINUE
+# Registered                                                                 
+------------                                                                 
+           2                                                                 
+
+PRESS RETURN TO CONTINUE
+TAXIID     # Drivers                                                         
+--------- ----------                                                         
+T00000001          1                                                         
+T00000004          1                                                         
+
+PRESS RETURN TO CONTINUE
+Average Miles                                                                
+-------------                                                                
+      46.0175                                                                
+
+PRESS RETURN TO CONTINUE
+TAXIID     # of Jobs                                                         
+--------- ----------                                                         
+T00000001          4                                                         
+T00000004          4                                                         
+
+PRESS RETURN TO CONTINUE
+STAFFID    # of Jobs                                                         
+--------- ----------                                                         
+S00554897          4                                                         
+S15488378          4                                                         
+
+PRESS RETURN TO CONTINUE
+CONTRACTI  # of Jobs Total Miles                                             
+--------- ---------- -----------                                             
+X05588755          2      115.62                                             
+X05786842          2       99.98                                             
+

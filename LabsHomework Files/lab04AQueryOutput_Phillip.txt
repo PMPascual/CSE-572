@@ -1,0 +1,493 @@
+PRESS RETURN TO CONTINUE
+Date                                                                       
+---------                                                                  
+30-APR-19                                                                  
+
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID LAST_NAME                 FIRST_NAME           COMMISSION_PCT  
+----------- ------------------------- -------------------- --------------  
+        165 Lee                       David                            .1  
+        179 Johnson                   Charles                          .1  
+        164 Marvins                   Mattea                           .1  
+        167 Banda                     Amit                             .1  
+        173 Kumar                     Sundita                          .1  
+        166 Ande                      Sundar                           .1  
+        163 Greene                    Danielle                        .15  
+        178 Grant                     Kimberely                       .15  
+        155 Tuvault                   Oliver                          .15  
+        172 Bates                     Elizabeth                       .15  
+        171 Smith                     William                         .15  
+        176 Taylor                    Jonathon                         .2  
+        169 Bloom                     Harrison                         .2  
+        170 Fox                       Tayler                           .2  
+        154 Cambrault                 Nanette                          .2  
+        177 Livingston                Jack                             .2  
+        149 Zlotkey                   Eleni                            .2  
+        153 Olsen                     Christopher                      .2  
+        161 Sewall                    Sarath                          .25  
+        152 Hall                      Peter                           .25  
+        151 Bernstein                 David                           .25  
+        162 Vishney                   Clara                           .25  
+        175 Hutton                    Alyssa                          .25  
+        168 Ozer                      Lisa                            .25  
+        174 Abel                      Ellen                            .3  
+        159 Smith                     Lindsey                          .3  
+        146 Partners                  Karen                            .3  
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID LAST_NAME                 FIRST_NAME           COMMISSION_PCT  
+----------- ------------------------- -------------------- --------------  
+        147 Errazuriz                 Alberto                          .3  
+        150 Tucker                    Peter                            .3  
+        148 Cambrault                 Gerald                           .3  
+        160 Doran                     Louise                           .3  
+        156 King                      Janette                         .35  
+        157 Sully                     Patrick                         .35  
+        158 McEwen                    Allan                           .35  
+        145 Russell                   John                             .4  
+
+35 rows selected.
+
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID LAST_NAME                 FIRST_NAME               SALARY      
+----------- ------------------------- -------------------- ----------      
+New
+Salary                                                                 
+----------                                                                 
+        100 King                      Steven                    24000      
+     27600                                                                 
+                                                                           
+        101 Kochhar                   Neena                     17000      
+     19550                                                                 
+                                                                           
+        102 De Haan                   Lex                       17000      
+     19550                                                                 
+                                                                           
+        108 Greenberg                 Nancy                     12008      
+     13809                                                                 
+                                                                           
+        114 Raphaely                  Den                       11000      
+     12650                                                                 
+                                                                           
+        145 Russell                   John                      14000      
+     16100                                                                 
+                                                                           
+        146 Partners                  Karen                     13500      
+     15525                                                                 
+                                                                           
+        147 Errazuriz                 Alberto                   12000      
+     13800                                                                 
+                                                                           
+        148 Cambrault                 Gerald                    11000      
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID LAST_NAME                 FIRST_NAME               SALARY      
+----------- ------------------------- -------------------- ----------      
+New
+Salary                                                                 
+----------                                                                 
+     12650                                                                 
+                                                                           
+        149 Zlotkey                   Eleni                     10500      
+     12075                                                                 
+                                                                           
+        150 Tucker                    Peter                     10000      
+     11500                                                                 
+                                                                           
+        156 King                      Janette                   10000      
+     11500                                                                 
+                                                                           
+        162 Vishney                   Clara                     10500      
+     12075                                                                 
+                                                                           
+        168 Ozer                      Lisa                      11500      
+     13225                                                                 
+                                                                           
+        169 Bloom                     Harrison                  10000      
+     11500                                                                 
+                                                                           
+        174 Abel                      Ellen                     11000      
+     12650                                                                 
+                                                                           
+        201 Hartstein                 Michael                   13000      
+     14950                                                                 
+PRESS RETURN TO CONTINUE
+EMPLOYEE_ID LAST_NAME                 FIRST_NAME               SALARY      
+----------- ------------------------- -------------------- ----------      
+New
+Salary                                                                 
+----------                                                                 
+                                                                           
+        204 Baer                      Hermann                   10000      
+     11500                                                                 
+                                                                           
+        205 Higgins                   Shelley                   12008      
+     13809                                                                 
+                                                                           
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+INITCAP(LAST_NAME)        LENGTH(LAST_NAME)                                
+------------------------- -----------------                                
+Abel                                      4                                
+Ande                                      4                                
+Atkinson                                  8                                
+Austin                                    6                                
+Johnson                                   7                                
+Jones                                     5                                
+Mallin                                    6                                
+Markle                                    6                                
+Marlow                                    6                                
+Marvins                                   7                                
+Matos                                     5                                
+Mavris                                    6                                
+Mccain                                    6                                
+Mcewen                                    6                                
+Mikkilineni                              11                                
+Mourgos                                   7                                
+
+16 rows selected.
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                 ROUND(MONTHS_BETWEEN(SYSDATE,HIRE_DATE))         
+------------------------- ----------------------------------------         
+Zlotkey                                                        135         
+Mourgos                                                        137         
+Cambrault                                                      139         
+Vollman                                                        163         
+Fripp                                                          169         
+Errazuriz                                                      170         
+Partners                                                       172         
+Russell                                                        175         
+Weiss                                                          177         
+Hartstein                                                      182         
+Kaufling                                                       192         
+Raphaely                                                       197         
+Greenberg                                                      200         
+Higgins                                                        203         
+
+14 rows selected.
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                                                                  
+-------------------------                                                  
+SALARY                                                                     
+------------------------------------------------------------               
+Lorentz                                                                    
+$$$$$$$$$$$4200                                                            
+                                                                           
+Austin                                                                     
+$$$$$$$$$$$4800                                                            
+                                                                           
+Pataballa                                                                  
+$$$$$$$$$$$4800                                                            
+                                                                           
+Ernst                                                                      
+$$$$$$$$$$$6000                                                            
+                                                                           
+Hunold                                                                     
+$$$$$$$$$$$9000                                                            
+                                                                           
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+Abel                      Ellen                                            
+3300                                                                       
+                                                                           
+Ande                      Sundar                                           
+640                                                                        
+                                                                           
+Banda                     Amit                                             
+620                                                                        
+                                                                           
+Bates                     Elizabeth                                        
+1095                                                                       
+                                                                           
+Bernstein                 David                                            
+2375                                                                       
+                                                                           
+Bloom                     Harrison                                         
+2000                                                                       
+                                                                           
+Cambrault                 Gerald                                           
+3300                                                                       
+                                                                           
+Cambrault                 Nanette                                          
+1500                                                                       
+                                                                           
+De Haan                   Lex                                              
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+NO BONUS                                                                   
+                                                                           
+Doran                     Louise                                           
+2250                                                                       
+                                                                           
+Errazuriz                 Alberto                                          
+3600                                                                       
+                                                                           
+Fox                       Tayler                                           
+1920                                                                       
+                                                                           
+Greene                    Danielle                                         
+1425                                                                       
+                                                                           
+Hall                      Peter                                            
+2250                                                                       
+                                                                           
+Hutton                    Alyssa                                           
+2200                                                                       
+                                                                           
+Johnson                   Charles                                          
+620                                                                        
+                                                                           
+King                      Janette                                          
+3500                                                                       
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+                                                                           
+King                      Steven                                           
+NO BONUS                                                                   
+                                                                           
+Kochhar                   Neena                                            
+NO BONUS                                                                   
+                                                                           
+Kumar                     Sundita                                          
+610                                                                        
+                                                                           
+Lee                       David                                            
+680                                                                        
+                                                                           
+Livingston                Jack                                             
+1680                                                                       
+                                                                           
+Marvins                   Mattea                                           
+720                                                                        
+                                                                           
+McEwen                    Allan                                            
+3150                                                                       
+                                                                           
+Olsen                     Christopher                                      
+1600                                                                       
+                                                                           
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+Ozer                      Lisa                                             
+2875                                                                       
+                                                                           
+Partners                  Karen                                            
+4050                                                                       
+                                                                           
+Russell                   John                                             
+5600                                                                       
+                                                                           
+Sewall                    Sarath                                           
+1750                                                                       
+                                                                           
+Smith                     Lindsey                                          
+2400                                                                       
+                                                                           
+Smith                     William                                          
+1110                                                                       
+                                                                           
+Sully                     Patrick                                          
+3325                                                                       
+                                                                           
+Taylor                    Jonathon                                         
+1720                                                                       
+                                                                           
+Tucker                    Peter                                            
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+3000                                                                       
+                                                                           
+Tuvault                   Oliver                                           
+1050                                                                       
+                                                                           
+Vishney                   Clara                                            
+2625                                                                       
+                                                                           
+Zlotkey                   Eleni                                            
+2100                                                                       
+                                                                           
+
+37 rows selected.
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME           JOB_ID     GR               
+------------------------- -------------------- ---------- --               
+King                      Steven               AD_PRES    A                
+Bloom                     Harrison             SA_REP     D                
+Ozer                      Lisa                 SA_REP     D                
+Vishney                   Clara                SA_REP     D                
+King                      Janette              SA_REP     D                
+Tucker                    Peter                SA_REP     D                
+Abel                      Ellen                SA_REP     D                
+Partners                  Karen                SA_MAN     NA               
+Errazuriz                 Alberto              SA_MAN     NA               
+Cambrault                 Gerald               SA_MAN     NA               
+Zlotkey                   Eleni                SA_MAN     NA               
+Russell                   John                 SA_MAN     NA               
+Raphaely                  Den                  PU_MAN     NA               
+Greenberg                 Nancy                FI_MGR     NA               
+De Haan                   Lex                  AD_VP      NA               
+Kochhar                   Neena                AD_VP      NA               
+Higgins                   Shelley              AC_MGR     NA               
+Hartstein                 Michael              MK_MAN     NA               
+Baer                      Hermann              PR_REP     NA               
+
+19 rows selected.
+
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+Abel                      Ellen                                            
+3300                                                                       
+                                                                           
+Ande                      Sundar                                           
+640                                                                        
+                                                                           
+Banda                     Amit                                             
+620                                                                        
+                                                                           
+Bates                     Elizabeth                                        
+1095                                                                       
+                                                                           
+Bernstein                 David                                            
+2375                                                                       
+                                                                           
+Bloom                     Harrison                                         
+2000                                                                       
+                                                                           
+Cambrault                 Gerald                                           
+3300                                                                       
+                                                                           
+Cambrault                 Nanette                                          
+1500                                                                       
+                                                                           
+De Haan                   Lex                                              
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+                                                                           
+                                                                           
+Doran                     Louise                                           
+2250                                                                       
+                                                                           
+Errazuriz                 Alberto                                          
+3600                                                                       
+                                                                           
+Fox                       Tayler                                           
+1920                                                                       
+                                                                           
+Greene                    Danielle                                         
+1425                                                                       
+                                                                           
+Hall                      Peter                                            
+2250                                                                       
+                                                                           
+Hutton                    Alyssa                                           
+2200                                                                       
+                                                                           
+Johnson                   Charles                                          
+620                                                                        
+                                                                           
+King                      Janette                                          
+3500                                                                       
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+                                                                           
+King                      Steven                                           
+                                                                           
+                                                                           
+Kochhar                   Neena                                            
+                                                                           
+                                                                           
+Kumar                     Sundita                                          
+610                                                                        
+                                                                           
+Lee                       David                                            
+680                                                                        
+                                                                           
+Livingston                Jack                                             
+1680                                                                       
+                                                                           
+Marvins                   Mattea                                           
+720                                                                        
+                                                                           
+McEwen                    Allan                                            
+3150                                                                       
+                                                                           
+Olsen                     Christopher                                      
+1600                                                                       
+                                                                           
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+Ozer                      Lisa                                             
+2875                                                                       
+                                                                           
+Partners                  Karen                                            
+4050                                                                       
+                                                                           
+Russell                   John                                             
+5600                                                                       
+                                                                           
+Sewall                    Sarath                                           
+1750                                                                       
+                                                                           
+Smith                     Lindsey                                          
+2400                                                                       
+                                                                           
+Smith                     William                                          
+1110                                                                       
+                                                                           
+Sully                     Patrick                                          
+3325                                                                       
+                                                                           
+Taylor                    Jonathon                                         
+1720                                                                       
+                                                                           
+Tucker                    Peter                                            
+PRESS RETURN TO CONTINUE
+LAST_NAME                 FIRST_NAME                                       
+------------------------- --------------------                             
+BONUS                                                                      
+----------------------------------------                                   
+3000                                                                       
+                                                                           
+Tuvault                   Oliver                                           
+1050                                                                       
+                                                                           
+Vishney                   Clara                                            
+2625                                                                       
+                                                                           
+Zlotkey                   Eleni                                            
+2100                                                                       
+                                                                           
+
+37 rows selected.
+

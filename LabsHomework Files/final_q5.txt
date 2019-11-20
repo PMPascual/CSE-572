@@ -1,0 +1,21 @@
+-- Phillip Pascual
+-- CSE 572
+-- Spring 2019
+-- Final Exam: Question 5
+
+-- 1) Query pet name, its owner name, vet name and diagnosis
+SELECT p.name, o.fname, o.lname, s.fname, s.lname, e.diagnosis
+    FROM pet p, owner o, staff s, examination e
+    WHERE p.petid = e.petid
+    AND e.staffid = s.staffid
+    ORDER BY e.examid;
+
+-- 2) Query clinicID, address, manager name, number of staff, and number of pets
+-- registered at the clinic
+SELECT c.clinicid, c.address, s.lname || ',' || s.fname "Mgr Name",
+    count(s.staffid), count(p.petid)
+    FROM clinic c, staff s, pet p
+    WHERE c.mgrid = s.staffid
+    AND s.clinicid = c.clinicid
+    AND p.clinicid = c.clinicid
+    ORDER BY c.clinicid;

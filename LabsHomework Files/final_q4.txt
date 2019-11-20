@@ -1,0 +1,91 @@
+-- Phillip Pascual
+-- CSE 572
+-- Spring 2019
+-- Final Exam: Question 4
+
+CREATE TABLE Clinic (
+    clinicID CHAR(9) NOT NULL,
+    mgrID CHAR(9) NOT NULL,
+    address VARCHAR(25) NOT NULL,
+    phoneNumber CHAR(10) NOT NULL,
+    CONSTRAINTS Clinic_PK PRIMARY KEY(clinicID)
+);
+
+CREATE TABLE Staff (
+    staffID CHAR(9) NOT NULL,
+    clinicID CHAR(9) NOT NULL,
+    fname VARCHAR(15) NOT NULL,
+    lname VARCHAR(15) NOT NULL,
+    phone CHAR(10) NOT NULL,
+    dob DATE NOT NULL,
+    sex CHAR(1) NOT NULL,
+    SSN CHAR(9) NOT NULL,
+    position VARCHAR(15) NOT NULL,
+    salary NUMBER(8,2) NOT NULL,
+    CONSTRAINTS Staff_PK PRIMARY KEY(staffID),
+    CONSTRAINTS Staff_Gender_CK CHECK (sex IN ('F','M')),
+    CONSTRAINTS Staff_Position_CK CHECK (position IN ('VET','NURSE','SECRETARY',
+        'CLEANER')),
+);
+
+CREATE TABLE Owner (
+    ownerID CHAR(9) NOT NULL,
+    clinicID CHAR(9) NOT NULL,
+    fname VARCHAR(15) NOT NULL,
+    lname VARCHAR(15) NOT NULL,
+    address VARCHAR(25) NOT NULL,
+    phone CHAR(10) NOT NULL,
+    CONSTRAINTS Owner_PK PRIMARY KEY(ownerID)
+);
+
+CREATE TABLE Pet (
+    petID CHAR(9) NOT NULL,
+    ownerID CHAR(9) NOT NULL,
+    name VARCHAR(15) NOT NULL,
+    description VARCHAR(50) NOT NULL,
+    type VARCHAR(15) NOT NULL,
+    dob DATE NOT NULL,
+    dateRegistered DATE,
+    status VARCHAR(20) NOT NULL,
+    details VARCHAR(100),
+    CONSTRAINTS Pet_PK PRIMARY KEY(petID)
+);
+
+CREATE TABLE Examination (
+    examID CHAR(9) NOT NULL,
+    petID CHAR(9) NOT NULL,
+    staffID CHAR(9) NOT NULL,
+    date DATE NOT NULL,
+    diagnosis VARCHAR(50),
+    CONSTRAINTS Examination_PK PRIMARY KEY(examID)
+);
+
+ALTER TABLE Clinic
+    ADD CONSTRAINTS Clinic_mgrID_FK FOREIGN KEY (mgrID) REFERENCES
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Staff
+    ADD CONSTRAINTS Staff_clinicID_FK FOREIGN KEY (clinicID) REFERENCES
+        Clinic(clinicID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Owner
+    ADD CONSTRAINTS Owner_clinicID_FK FOREIGN KEY (clinicID) REFERENCES
+        Clinic(clinicID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Pet
+    ADD CONSTRAINTS Pet_ownerID_FK FOREIGN KEY (ownerID) REFERENCES
+        Owner(ownerID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Examination
+    ADD CONSTRAINTS Examination_petID_FK FOREIGN KEY (petID) REFERENCES
+        Pet(petID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Examination
+    ADD CONSTRAINTS Examination_staffID_FK FOREIGN KEY (staffID) REFERENCES)
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE;

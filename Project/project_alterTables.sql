@@ -1,0 +1,80 @@
+-- Team Name: Deal Team Six
+-- CSE 572 Spring 2019
+-- Project Option: The FastCabs
+-- Purpose: Altering of created SQL Tables
+-- Author: Phillip Pascual - 005869470
+
+ALTER TABLE Staff
+    ADD CONSTRAINTS Staff_branchID_FK FOREIGN KEY (branchID) REFERENCES
+        Office(branchID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Taxi
+    ADD CONSTRAINTS Taxi_ownerNo_FK FOREIGN KEY (ownerNo) REFERENCES
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE; 
+
+ALTER TABLE Business
+    ADD CONSTRAINTS Business_branchID_FK FOREIGN KEY (branchID) REFERENCES
+        Office(branchID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Contract
+    ADD CONSTRAINTS Contract_branchID_FK FOREIGN KEY (branchID) REFERENCES
+        Office(branchID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Contract
+    ADD CONSTRAINTS Contract_busClientID_FK FOREIGN KEY (busClientID) REFERENCES
+        Business(clientID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Office
+    ADD CONSTRAINTS Office_mgrID_FK FOREIGN KEY (mgrID) REFERENCES
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Assignment
+    ADD CONSTRAINTS Assignment_taxiID_FK FOREIGN KEY (taxiID) REFERENCES
+        Taxi(taxiID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Assignment
+    ADD CONSTRAINTS Assignment_staffID_FK FOREIGN KEY (staffID) REFERENCES
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_contractID_FK FOREIGN KEY (contractID) REFERENCES
+        Contract(contractID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_clientID_FK FOREIGN KEY (clientID) REFERENCES
+        Private(clientID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_busClientID_FK FOREIGN KEY (busClientID) REFERENCES
+        Business(clientID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_taxiID_FK FOREIGN KEY (taxiID) REFERENCES
+        Taxi(taxiID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_staffID_FK FOREIGN KEY (staffID) REFERENCES
+        Staff(staffID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Job
+    ADD CONSTRAINTS Job_branchID_FK FOREIGN KEY (branchID) REFERENCES
+        Office(branchID)
+    ON DELETE SET NULL DEFERRABLE;
+
+ALTER TABLE Private
+    ADD CONSTRAINTS Private_branchID_FK FOREIGN KEY (branchID) REFERENCES
+        Office(branchID)
+    ON DELETE SET NULL DEFERRABLE;
